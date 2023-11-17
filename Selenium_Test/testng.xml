@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/rishi/Downloads/Selenium_Test">
+        <classes>
+            <class name="Test.Items">
+                <methods>
+                    <include name="testforChangeViewCount"/>
+                    <include name="testStepsCheckImageSizes"/>
+                </methods>
+            </class>
+            <class name="Test.View">
+                <methods>
+                    <include name="testforChangeCurrency"/>
+                    <include name="testforCheckManufacture"/>
+                    <include name="testStepsPostComment"/>
+                    <include name="testCheckImageWidthEqualsHeight"/>
+                </methods>
+            </class>
+<!--            <class name="Test.Cart">-->
+<!--                <methods>-->
+<!--                    <include name="checkCartCount"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
